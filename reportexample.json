@@ -1,0 +1,3952 @@
+{
+  "accountAlias": "hennessysaccount",
+  "accountId": "027833388596",
+  "recommendations": [
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=1",
+      "rec_id": "LW_S3_1",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant 'Everyone' READ permission [list S3 objects]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=2",
+      "rec_id": "LW_S3_2",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant 'Everyone' WRITE permission [create, overwrite, and delete S3 objects]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=3",
+      "rec_id": "LW_S3_3",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant 'Everyone' READ_ACP permission [read bucket ACL]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=4",
+      "rec_id": "LW_S3_4",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant 'Everyone' WRITE_ACP permission [modify bucket ACL]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=5",
+      "rec_id": "LW_S3_5",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant 'Everyone' FULL_CONTROL [READ, WRITE, READ_ACP, WRITE_ACP]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=6",
+      "rec_id": "LW_S3_6",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant AWS users READ permission [list S3 objects]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=7",
+      "rec_id": "LW_S3_7",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant AWS users WRITE permission [create, overwrite, and delete S3 objects]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=8",
+      "rec_id": "LW_S3_8",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant AWS users READ_ACP permission [read bucket ACL]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=9",
+      "rec_id": "LW_S3_9",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant AWS users WRITE_ACP permission [modify bucket ACL]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=10",
+      "rec_id": "LW_S3_10",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket ACL does not grant AWS users FULL_CONTROL [READ, WRITE, READ_ACP, WRITE_ACP]",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=11",
+      "rec_id": "LW_S3_11",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure the attached S3 bucket policy does not grant 'Allow' permission to everyone",
+      "violations": [
+        {
+          "reasons": [
+            "PermissionsGranted"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-test-site"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=12",
+      "rec_id": "LW_S3_12",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket requires MFA to delete objects",
+      "violations": [
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::cloudtrail-hennessy"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::datadog-forwarder-forwarderbucket-byoauuvct6d6"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-1-027833388596"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-2-027833388596"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-stuff"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-terraform"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-test-site"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lacework-dump"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::logdumptest"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lw-hennessy-reports"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lwint-se-hennessy-laceworkcws"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::molly-hennessy"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::sagemaker-studio-u56cz47022b"
+        },
+        {
+          "reasons": [
+            "MFADeleteNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::zappa-mytest"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=13",
+      "rec_id": "LW_S3_13",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 4,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket has access logging enabled",
+      "violations": [
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::cloudtrail-hennessy"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::datadog-forwarder-forwarderbucket-byoauuvct6d6"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-1-027833388596"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-2-027833388596"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-stuff"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-terraform"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-test-site"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lacework-dump"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::logdumptest"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lw-hennessy-reports"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lwint-se-hennessy-laceworkcws"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::molly-hennessy"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::sagemaker-studio-u56cz47022b"
+        },
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::zappa-mytest"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=14",
+      "rec_id": "LW_S3_14",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure all data stored in the S3 bucket is securely encrypted at rest",
+      "violations": [
+        {
+          "reasons": [
+            "ServerSideEncryptionNotEnabledInPolicyAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::cloudtrail-hennessy"
+        },
+        {
+          "reasons": [
+            "ServerSideEncryptionNotEnabledInPolicyAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-1-027833388596"
+        },
+        {
+          "reasons": [
+            "ServerSideEncryptionNotEnabledInPolicyAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-2-027833388596"
+        },
+        {
+          "reasons": [
+            "ServerSideEncryptionNotEnabledInPolicyAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-stuff"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-terraform"
+        },
+        {
+          "reasons": [
+            "ServerSideEncryptionNotEnabledInPolicyAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-test-site"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lacework-dump"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::logdumptest"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lw-hennessy-reports"
+        },
+        {
+          "reasons": [
+            "ServerSideEncryptionNotEnabledInPolicyAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lwint-se-hennessy-laceworkcws"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::molly-hennessy"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::sagemaker-studio-u56cz47022b"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfiguredAndServerSideEncryptionNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::zappa-mytest"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=15",
+      "rec_id": "LW_S3_15",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure all data is transported from the S3 bucket securely",
+      "violations": [
+        {
+          "reasons": [
+            "SecureTransportNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::cloudtrail-hennessy"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::datadog-forwarder-forwarderbucket-byoauuvct6d6"
+        },
+        {
+          "reasons": [
+            "SecureTransportNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-1-027833388596"
+        },
+        {
+          "reasons": [
+            "SecureTransportNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-2-027833388596"
+        },
+        {
+          "reasons": [
+            "SecureTransportNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-stuff"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-terraform"
+        },
+        {
+          "reasons": [
+            "SecureTransportNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::hennessy-test-site"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lacework-dump"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::logdumptest"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lw-hennessy-reports"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::molly-hennessy"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::sagemaker-studio-u56cz47022b"
+        },
+        {
+          "reasons": [
+            "PolicyNotConfigured"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::zappa-mytest"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=16",
+      "rec_id": "LW_S3_16",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket has versioning enabled",
+      "violations": [
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::cloudtrail-hennessy"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::datadog-forwarder-forwarderbucket-byoauuvct6d6"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-1-027833388596"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::elasticbeanstalk-us-east-2-027833388596"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lacework-dump"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::logdumptest"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lw-hennessy-reports"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lwint-se-hennessy-laceworkcws"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::molly-hennessy"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::sagemaker-studio-u56cz47022b"
+        },
+        {
+          "reasons": [
+            "VersioningNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::zappa-mytest"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=17",
+      "rec_id": "LW_S3_17",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the S3 bucket access is restricted to a whitelist of IP networks.",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=18",
+      "rec_id": "LW_S3_18",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the attached S3 bucket policy does not grant global 'Get' permission.",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=19",
+      "rec_id": "LW_S3_19",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the attached S3 bucket policy does not grant global 'Delete' permission.",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=20",
+      "rec_id": "LW_S3_20",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the attached S3 bucket policy does not grant global 'List' permission.",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 14,
+      "category": "S3",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_S3_Rec.pdf#page=21",
+      "rec_id": "LW_S3_21",
+      "resource_count": 14,
+      "service": "aws:s3",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure the attached S3 bucket policy does not grant global 'Put' permission.",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=11",
+      "rec_id": "AWS_CIS_1_1",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Avoid the use of the \"root\" account",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=13",
+      "rec_id": "AWS_CIS_1_2",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password",
+      "violations": [
+        {
+          "reasons": [
+            "MFANotActive"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:user/mac-cli"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=16",
+      "rec_id": "AWS_CIS_1_3",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure credentials unused for 90 days or greater are disabled",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=18",
+      "rec_id": "AWS_CIS_1_4",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure access keys are rotated every 90 days or less",
+      "violations": [
+        {
+          "reasons": [
+            "AccessKey1NotRotated"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:user/mac-cli"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=20",
+      "rec_id": "AWS_CIS_1_5",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy requires at least one uppercase letter",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=22",
+      "rec_id": "AWS_CIS_1_6",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy require at least one lowercase letter",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=24",
+      "rec_id": "AWS_CIS_1_7",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy require at least one symbol",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=26",
+      "rec_id": "AWS_CIS_1_8",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy require at least one number",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=28",
+      "rec_id": "AWS_CIS_1_9",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy requires minimum length of 14 or greater",
+      "violations": [
+        {
+          "reasons": [
+            "WeakMinimumLength"
+          ],
+          "region": "",
+          "resource": ""
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=30",
+      "rec_id": "AWS_CIS_1_10",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy prevents password reuse",
+      "violations": [
+        {
+          "reasons": [
+            "DoesNotPreventReuse"
+          ],
+          "region": "",
+          "resource": ""
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=32",
+      "rec_id": "AWS_CIS_1_11",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure IAM password policy expires passwords within 90 days or less",
+      "violations": [
+        {
+          "reasons": [
+            "DoesNotExpire"
+          ],
+          "region": "",
+          "resource": ""
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=34",
+      "rec_id": "AWS_CIS_1_12",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure no root account access key exists",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=36",
+      "rec_id": "AWS_CIS_1_13",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure MFA is enabled for the \"root\" account",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=38",
+      "rec_id": "AWS_CIS_1_14",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure hardware MFA is enabled for the \"root\" account",
+      "violations": [
+        {
+          "reasons": [
+            "VirtualMFA"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:root"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=40",
+      "rec_id": "AWS_CIS_1_15",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "RequiresManualAssessment",
+      "suppressions": null,
+      "title": "Ensure security questions are registered in the AWS account",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=42",
+      "rec_id": "AWS_CIS_1_16",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM policies are attached only to groups or roles",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=44",
+      "rec_id": "AWS_CIS_1_17",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 4,
+      "status": "RequiresManualAssessment",
+      "suppressions": null,
+      "title": "Enable detailed billing",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=59",
+      "rec_id": "AWS_CIS_1_19",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "RequiresManualAssessment",
+      "suppressions": null,
+      "title": "Maintain current contact details",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=61",
+      "rec_id": "AWS_CIS_1_20",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 4,
+      "status": "RequiresManualAssessment",
+      "suppressions": null,
+      "title": "Ensure security contact information is registered",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=62",
+      "rec_id": "AWS_CIS_1_21",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM instance roles are used for AWS resource access from instances",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=65",
+      "rec_id": "AWS_CIS_1_22",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 5,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure a support role has been created to manage incidents with AWS Support",
+      "violations": [
+        {
+          "reasons": [
+            "NoAssignment"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::aws:policy/AWSSupportAccess"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=67",
+      "rec_id": "AWS_CIS_1_23",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Do not setup access keys during initial user setup for all IAM users that have a console password",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 871,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=69",
+      "rec_id": "AWS_CIS_1_24",
+      "resource_count": 893,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure IAM policies that allow full \"*:*\" administrative privileges are not created",
+      "violations": [
+        {
+          "reasons": [
+            "HasAdminPrivileges"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::aws:policy/AdministratorAccess"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=1",
+      "rec_id": "LW_AWS_IAM_1",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure access keys are rotated every 30 days or less",
+      "violations": [
+        {
+          "reasons": [
+            "AccessKey1NotRotated30Days"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:user/mac-cli"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=3",
+      "rec_id": "LW_AWS_IAM_2",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure access keys are rotated every 45 days or less",
+      "violations": [
+        {
+          "reasons": [
+            "AccessKey1NotRotated45Days"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:user/mac-cli"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=5",
+      "rec_id": "LW_AWS_IAM_3",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure public ssh keys are rotated every 30 days or less",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=6",
+      "rec_id": "LW_AWS_IAM_4",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure public ssh keys are rotated every 45 days or less",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=7",
+      "rec_id": "LW_AWS_IAM_5",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure public ssh keys are rotated every 90 days or less",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=8",
+      "rec_id": "LW_AWS_IAM_6",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure active access keys are used every 90 days or less",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=9",
+      "rec_id": "LW_AWS_IAM_7",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Iam user should not be inactive from last 30 days or more",
+      "violations": [
+        {
+          "reasons": [
+            "IamUserInactive30Days"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:root"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=10",
+      "rec_id": "LW_AWS_IAM_8",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM configuration has valid Identity Providers configuration",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=11",
+      "rec_id": "LW_AWS_IAM_9",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM Role restrict access to a list of whitelist of IP networks",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=12",
+      "rec_id": "LW_AWS_IAM_10",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure IAM User restrict access to a list of whitelist of IP networks",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=13",
+      "rec_id": "LW_AWS_IAM_11",
+      "resource_count": 1,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure non-root user exists in the account",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=14",
+      "rec_id": "LW_AWS_IAM_12",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure access keys are rotated every 350 days or less",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=16",
+      "rec_id": "LW_AWS_IAM_13",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure access keys are rotated every 180 days or less",
+      "violations": [
+        {
+          "reasons": [
+            "AccessKey1NotRotated180Days"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:user/mac-cli"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Identity and Access Management",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=17",
+      "rec_id": "LW_AWS_IAM_14",
+      "resource_count": 2,
+      "service": "aws:iam",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "No IAM users with password-based console access should exist",
+      "violations": [
+        {
+          "reasons": [
+            "NoIAMUsersWithPasswordBasedConsoleAccessShouldExist"
+          ],
+          "region": "",
+          "resource": "arn:aws:iam::027833388596:user/mac-cli"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=71",
+      "rec_id": "AWS_CIS_2_1",
+      "resource_count": 0,
+      "service": "aws:cloudtrail",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure CloudTrail is enabled in all regions",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=73",
+      "rec_id": "AWS_CIS_2_2",
+      "resource_count": 1,
+      "service": "aws:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure CloudTrail log file validation is enabled",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=75",
+      "rec_id": "AWS_CIS_2_3",
+      "resource_count": 1,
+      "service": "aws:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure S3 bucket CloudTrail logs is not publicly accessible",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark_120.pdf#page=69",
+      "rec_id": "AWS_CIS_2_4",
+      "resource_count": 1,
+      "service": "aws:cloudtrail",
+      "severity": 4,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure CloudTrail is integrated with CloudWatch Logs",
+      "violations": [
+        {
+          "reasons": [
+            "CloudWatchLogsNotIntegrated"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:cloudtrail:us-east-2:027833388596:trail/lwint-se-hennessy-laceworkcws"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 18,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=80",
+      "rec_id": "AWS_CIS_2_5",
+      "resource_count": 17,
+      "service": "aws:config",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure AWS Config is enabled in all regions",
+      "violations": [
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "eu-north-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ap-south-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "eu-west-3",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "eu-west-2",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "eu-west-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ap-northeast-3",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ap-northeast-2",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ap-northeast-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "sa-east-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ca-central-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ap-southeast-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "ap-southeast-2",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "eu-central-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "us-east-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NotRecording"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:config:us-east-2:027833388596:recorder/default"
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "us-west-1",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "NoRecorder"
+          ],
+          "region": "us-west-2",
+          "resource": ""
+        },
+        {
+          "reasons": [
+            "GlobalResourceTypesNotIncluded"
+          ],
+          "region": "",
+          "resource": ""
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=82",
+      "rec_id": "AWS_CIS_2_6",
+      "resource_count": 1,
+      "service": "aws:cloudtrail",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure S3 bucket access logging is enabled on the CloudTrail S3 bucket",
+      "violations": [
+        {
+          "reasons": [
+            "LoggingNotEnabled"
+          ],
+          "region": "",
+          "resource": "arn:aws:s3:::lwint-se-hennessy-laceworkcws"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 1,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=84",
+      "rec_id": "AWS_CIS_2_7",
+      "resource_count": 1,
+      "service": "aws:cloudtrail",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure CloudTrail logs are encrypted at rest using KMS CMKs",
+      "violations": [
+        {
+          "reasons": [
+            "NotEncrypted"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:cloudtrail:us-east-2:027833388596:trail/lwint-se-hennessy-laceworkcws"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 16,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=86",
+      "rec_id": "AWS_CIS_2_8",
+      "resource_count": 17,
+      "service": "kms",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure rotation for customer created CMKs is enabled",
+      "violations": [
+        {
+          "reasons": [
+            "RotationNotEnabled"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:kms:us-east-2:027833388596:key/0299562f-96c6-466e-a770-5ba4fefb3391"
+        },
+        {
+          "reasons": [
+            "RotationNotEnabled"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:kms:us-east-2:027833388596:key/04f48ad2-6a8a-4e72-a69d-3fa36d07cc23"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 19,
+      "category": "Logging",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark_120.pdf#page=84",
+      "rec_id": "AWS_CIS_2_9",
+      "resource_count": 19,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure Flow Logging for VPC is enabled and active",
+      "violations": [
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "eu-north-1",
+          "resource": "vpc-19866470"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ap-south-1",
+          "resource": "vpc-b0f523d8"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "eu-west-3",
+          "resource": "vpc-facc0793"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "eu-west-2",
+          "resource": "vpc-8e7726e7"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "eu-west-1",
+          "resource": "vpc-064cf21f6c1535172"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ap-northeast-3",
+          "resource": "vpc-d3c22eba"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ap-northeast-2",
+          "resource": "vpc-f0a93f98"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ap-northeast-1",
+          "resource": "vpc-dcf097b9"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "sa-east-1",
+          "resource": "vpc-be0b52db"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ca-central-1",
+          "resource": "vpc-a90cbfc0"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ap-southeast-1",
+          "resource": "vpc-07bfdb62"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "ap-southeast-2",
+          "resource": "vpc-6354ca06"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "eu-central-1",
+          "resource": "vpc-da70eab3"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "us-east-1",
+          "resource": "vpc-0fb4fa0df3696c7c2"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "us-east-1",
+          "resource": "vpc-0e4707ab58944159a"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "us-east-2",
+          "resource": "vpc-02e4e042d79ed4b82"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "us-east-2",
+          "resource": "vpc-0321a23a137454b9f"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "us-west-1",
+          "resource": "vpc-bc62f3d9"
+        },
+        {
+          "reasons": [
+            "FlowLoggingNotEnabled"
+          ],
+          "region": "us-west-2",
+          "resource": "vpc-08455623f2150ef49"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=91",
+      "rec_id": "AWS_CIS_3_2",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for Management Console sign-in without MFA",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=94",
+      "rec_id": "AWS_CIS_3_3",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for usage of \"root\" account",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=97",
+      "rec_id": "AWS_CIS_3_4",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for IAM policy changes",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=100",
+      "rec_id": "AWS_CIS_3_5",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for CloudTrail configuration changes",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=103",
+      "rec_id": "AWS_CIS_3_6",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for AWS Management Console authentication failures",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=106",
+      "rec_id": "AWS_CIS_3_7",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=108",
+      "rec_id": "AWS_CIS_3_8",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for S3 bucket policy changes",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=111",
+      "rec_id": "AWS_CIS_3_9",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for AWS Config configuration changes",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=114",
+      "rec_id": "AWS_CIS_3_10",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for security group changes",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=117",
+      "rec_id": "AWS_CIS_3_11",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=120",
+      "rec_id": "AWS_CIS_3_12",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for changes to network gateways",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=123",
+      "rec_id": "AWS_CIS_3_13",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for route table changes ",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=126",
+      "rec_id": "AWS_CIS_3_14",
+      "resource_count": 0,
+      "service": "lw:cloudtrail",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure a log metric filter and alarm exist for VPC changes",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Monitoring",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=129",
+      "rec_id": "AWS_CIS_3_15",
+      "resource_count": 0,
+      "service": "aws:sns",
+      "severity": 5,
+      "status": "RequiresManualAssessment",
+      "suppressions": null,
+      "title": "Ensure appropriate subscribers to each SNS topic",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=131",
+      "rec_id": "AWS_CIS_4_1",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure no security groups allow ingress from 0.0.0.0/0 to port 22",
+      "violations": [
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "eu-west-2",
+          "resource": "arn:aws:ec2:eu-west-2:027833388596:security-group/sg-4ba56123"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-e964aa81"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-a904d3c1"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-4c836826"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-9c0f81f6"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-066e8f17fa308b152"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0423ec6f73ad53993"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-064189547254023e2"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0e1a35d3f5d2b52bf"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-06a1d554fd7e6b765"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-09ef771b781c92649"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0a143e93ebaae0163"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0a361cd55f49c3cb3"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:security-group/sg-0cd2173f"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=133",
+      "rec_id": "AWS_CIS_4_2",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure no security groups allow ingress from 0.0.0.0/0 to port 3389",
+      "violations": [
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-03e730ac794584b3d"
+        },
+        {
+          "reasons": [
+            "UnrestrictedAccess"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-057c82418ead36865"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 22,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=137",
+      "rec_id": "AWS_CIS_4_4",
+      "resource_count": 22,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Ensure the default security group of every VPC restricts all traffic",
+      "violations": [
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "eu-north-1",
+          "resource": "arn:aws:ec2:eu-north-1:027833388596:security-group/sg-cba96aa2"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ap-south-1",
+          "resource": "arn:aws:ec2:ap-south-1:027833388596:security-group/sg-f10cea9a"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "eu-west-3",
+          "resource": "arn:aws:ec2:eu-west-3:027833388596:security-group/sg-4ea30b27"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "eu-west-2",
+          "resource": "arn:aws:ec2:eu-west-2:027833388596:security-group/sg-01a56169"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:security-group/sg-dc9567ab"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:security-group/sg-03935c4f6b35c2032"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ap-northeast-3",
+          "resource": "arn:aws:ec2:ap-northeast-3:027833388596:security-group/sg-a11aeec8"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ap-northeast-2",
+          "resource": "arn:aws:ec2:ap-northeast-2:027833388596:security-group/sg-ee187b85"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ap-northeast-1",
+          "resource": "arn:aws:ec2:ap-northeast-1:027833388596:security-group/sg-ebf5e48e"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "sa-east-1",
+          "resource": "arn:aws:ec2:sa-east-1:027833388596:security-group/sg-44561f21"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ca-central-1",
+          "resource": "arn:aws:ec2:ca-central-1:027833388596:security-group/sg-9ed1b3f7"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ap-southeast-1",
+          "resource": "arn:aws:ec2:ap-southeast-1:027833388596:security-group/sg-062b1163"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "ap-southeast-2",
+          "resource": "arn:aws:ec2:ap-southeast-2:027833388596:security-group/sg-334e4d56"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "eu-central-1",
+          "resource": "arn:aws:ec2:eu-central-1:027833388596:security-group/sg-b04b17d9"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-6164aa09"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0fefc48e419d53685"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0ff8ef3cb72783835"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-01a02a28caf74c4ec"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0a361cd55f49c3cb3"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-west-1",
+          "resource": "arn:aws:ec2:us-west-1:027833388596:security-group/sg-f5edd190"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:security-group/sg-5a5ad36a"
+        },
+        {
+          "reasons": [
+            "HasPermissions"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:security-group/sg-085aba37f19e08980"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 24,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/AWS_CIS_Foundations_Benchmark.pdf#page=140",
+      "rec_id": "AWS_CIS_4_5",
+      "resource_count": 24,
+      "service": "aws:ec2",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure routing tables for VPC peering are \"least access\"",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=18",
+      "rec_id": "LW_AWS_NETWORKING_1",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 4,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Security groups are not attached to an in-use network interface",
+      "violations": [
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "eu-west-2",
+          "resource": "arn:aws:ec2:eu-west-2:027833388596:security-group/sg-4ba56123"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:security-group/sg-06e1fe3a15f6e440a"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:security-group/sg-092a13ac3277cf957"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:security-group/sg-0bdfff078037fc802"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-e964aa81"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-a904d3c1"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-4c836826"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-9c0f81f6"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-066e8f17fa308b152"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0423ec6f73ad53993"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-064189547254023e2"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0e1a35d3f5d2b52bf"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-03e730ac794584b3d"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-04549c841e8f3c1bd"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-057c82418ead36865"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-069cb5c8a3599f982"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-06a1d554fd7e6b765"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-08223bfd7ba573711"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-09ef771b781c92649"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0a143e93ebaae0163"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0b01b391813d5249c"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0de2467473f31cd66"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0e8204ce9cc74c66b"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0efd8179a701ba67f"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0f4b27131bcf31a67"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0fedac63a1cfe623a"
+        },
+        {
+          "reasons": [
+            "SecurityGroupNotAssignedToANetworkInterface"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:security-group/sg-0cd2173f"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 19,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=19",
+      "rec_id": "LW_AWS_NETWORKING_2",
+      "resource_count": 19,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Network ACLs do not allow unrestricted inbound traffic",
+      "violations": [
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-north-1",
+          "resource": "arn:aws:ec2:eu-north-1:027833388596:network-acl/acl-a26c8ecb"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-south-1",
+          "resource": "arn:aws:ec2:ap-south-1:027833388596:network-acl/acl-d58d3abd"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-west-3",
+          "resource": "arn:aws:ec2:eu-west-3:027833388596:network-acl/acl-4ea37327"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-west-2",
+          "resource": "arn:aws:ec2:eu-west-2:027833388596:network-acl/acl-f3e3c29a"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:network-acl/acl-015f6dfa0031b9c71"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-northeast-3",
+          "resource": "arn:aws:ec2:ap-northeast-3:027833388596:network-acl/acl-3b40ae52"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-northeast-2",
+          "resource": "arn:aws:ec2:ap-northeast-2:027833388596:network-acl/acl-47d2ac2f"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-northeast-1",
+          "resource": "arn:aws:ec2:ap-northeast-1:027833388596:network-acl/acl-f5463a90"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "sa-east-1",
+          "resource": "arn:aws:ec2:sa-east-1:027833388596:network-acl/acl-1fcb537a"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ca-central-1",
+          "resource": "arn:aws:ec2:ca-central-1:027833388596:network-acl/acl-0e40f967"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-southeast-1",
+          "resource": "arn:aws:ec2:ap-southeast-1:027833388596:network-acl/acl-3aec935f"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-southeast-2",
+          "resource": "arn:aws:ec2:ap-southeast-2:027833388596:network-acl/acl-c28dfca7"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-central-1",
+          "resource": "arn:aws:ec2:eu-central-1:027833388596:network-acl/acl-43e68a2a"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:network-acl/acl-014c309a1b5dec5f8"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:network-acl/acl-0ff437d14721865d1"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:network-acl/acl-0fa1054e8e4cc6f74"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:network-acl/acl-02c7326282e836cd8"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-west-1",
+          "resource": "arn:aws:ec2:us-west-1:027833388596:network-acl/acl-e43d5c81"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:network-acl/acl-0b768988c318f4f60"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 19,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=20",
+      "rec_id": "LW_AWS_NETWORKING_3",
+      "resource_count": 19,
+      "service": "aws:ec2",
+      "severity": 3,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Network ACLs do not allow unrestricted outbound traffic",
+      "violations": [
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-north-1",
+          "resource": "arn:aws:ec2:eu-north-1:027833388596:network-acl/acl-a26c8ecb"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-south-1",
+          "resource": "arn:aws:ec2:ap-south-1:027833388596:network-acl/acl-d58d3abd"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-west-3",
+          "resource": "arn:aws:ec2:eu-west-3:027833388596:network-acl/acl-4ea37327"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-west-2",
+          "resource": "arn:aws:ec2:eu-west-2:027833388596:network-acl/acl-f3e3c29a"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-west-1",
+          "resource": "arn:aws:ec2:eu-west-1:027833388596:network-acl/acl-015f6dfa0031b9c71"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-northeast-3",
+          "resource": "arn:aws:ec2:ap-northeast-3:027833388596:network-acl/acl-3b40ae52"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-northeast-2",
+          "resource": "arn:aws:ec2:ap-northeast-2:027833388596:network-acl/acl-47d2ac2f"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-northeast-1",
+          "resource": "arn:aws:ec2:ap-northeast-1:027833388596:network-acl/acl-f5463a90"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "sa-east-1",
+          "resource": "arn:aws:ec2:sa-east-1:027833388596:network-acl/acl-1fcb537a"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ca-central-1",
+          "resource": "arn:aws:ec2:ca-central-1:027833388596:network-acl/acl-0e40f967"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-southeast-1",
+          "resource": "arn:aws:ec2:ap-southeast-1:027833388596:network-acl/acl-3aec935f"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "ap-southeast-2",
+          "resource": "arn:aws:ec2:ap-southeast-2:027833388596:network-acl/acl-c28dfca7"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "eu-central-1",
+          "resource": "arn:aws:ec2:eu-central-1:027833388596:network-acl/acl-43e68a2a"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:network-acl/acl-014c309a1b5dec5f8"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:network-acl/acl-0ff437d14721865d1"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:network-acl/acl-0fa1054e8e4cc6f74"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:network-acl/acl-02c7326282e836cd8"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-west-1",
+          "resource": "arn:aws:ec2:us-west-1:027833388596:network-acl/acl-e43d5c81"
+        },
+        {
+          "reasons": [
+            "UnrestrictedNetworkACLInboundTraffic"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:network-acl/acl-0b768988c318f4f60"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=21",
+      "rec_id": "LW_AWS_NETWORKING_4",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "AWS VPC endpoints should not be exposed",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=22",
+      "rec_id": "LW_AWS_NETWORKING_5",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security Group should not be open to all(unrestricted)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=23",
+      "rec_id": "LW_AWS_NETWORKING_6",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Security Group should not accept traffic other than 80 and 443",
+      "violations": [
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "eu-west-2",
+          "resource": "arn:aws:ec2:eu-west-2:027833388596:security-group/sg-4ba56123"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-e964aa81"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-a904d3c1"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-4c836826"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-9c0f81f6"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-066e8f17fa308b152"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0423ec6f73ad53993"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-064189547254023e2"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-1",
+          "resource": "arn:aws:ec2:us-east-1:027833388596:security-group/sg-0e1a35d3f5d2b52bf"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-03e730ac794584b3d"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-04549c841e8f3c1bd"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-057c82418ead36865"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-06a1d554fd7e6b765"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-09ef771b781c92649"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0a143e93ebaae0163"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:ec2:us-east-2:027833388596:security-group/sg-0a361cd55f49c3cb3"
+        },
+        {
+          "reasons": [
+            "UnrestrictedSecurityGroupInboundtrafficOtherthan80_443"
+          ],
+          "region": "us-west-2",
+          "resource": "arn:aws:ec2:us-west-2:027833388596:security-group/sg-0cd2173f"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=24",
+      "rec_id": "LW_AWS_NETWORKING_7",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Unrestricted Security Group should not be attached to EC2 instance",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=25",
+      "rec_id": "LW_AWS_NETWORKING_8",
+      "resource_count": 0,
+      "service": "aws:rds",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Unrestricted Security Group should not be attached to RDS database",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 2,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=26",
+      "rec_id": "LW_AWS_NETWORKING_9",
+      "resource_count": 2,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Unrestricted Security Group should not be attached to Network Interface",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=27",
+      "rec_id": "LW_AWS_NETWORKING_10",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Unrestricted Security Group should not be attached to Classical Load Balancer",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=28",
+      "rec_id": "LW_AWS_NETWORKING_11",
+      "resource_count": 0,
+      "service": "aws:elbv2",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Unrestricted Security Group should not be attached to Application Load Balancer",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=29",
+      "rec_id": "LW_AWS_NETWORKING_12",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 9300 (Elasticsearch)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=30",
+      "rec_id": "LW_AWS_NETWORKING_13",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 5601 (Kibana)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=31",
+      "rec_id": "LW_AWS_NETWORKING_14",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 6379 (Redis)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=32",
+      "rec_id": "LW_AWS_NETWORKING_15",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 2379 (etcd)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=33",
+      "rec_id": "LW_AWS_NETWORKING_16",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "ELB SSL Certificate expires in 5 Days",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=34",
+      "rec_id": "LW_AWS_NETWORKING_17",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "ELB SSL Certificate expires in 45 Days",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=35",
+      "rec_id": "LW_AWS_NETWORKING_18",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 23 (Telnet)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=36",
+      "rec_id": "LW_AWS_NETWORKING_19",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 135 (Windows RPC)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=37",
+      "rec_id": "LW_AWS_NETWORKING_20",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 445 (Windows SMB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=38",
+      "rec_id": "LW_AWS_NETWORKING_21",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 3306 (MySQL)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=39",
+      "rec_id": "LW_AWS_NETWORKING_22",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 5432 (PostgreSQL)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=40",
+      "rec_id": "LW_AWS_NETWORKING_23",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 1433 (SQLServer)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=41",
+      "rec_id": "LW_AWS_NETWORKING_24",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to UDP port 1434 (SQLServer)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=42",
+      "rec_id": "LW_AWS_NETWORKING_25",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 4333 (MSQL)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=43",
+      "rec_id": "LW_AWS_NETWORKING_26",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 5500 (VNC Listener)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=44",
+      "rec_id": "LW_AWS_NETWORKING_27",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 5900 (VNC Server)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=45",
+      "rec_id": "LW_AWS_NETWORKING_28",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to UDP port 137 (NetBIOS)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=46",
+      "rec_id": "LW_AWS_NETWORKING_29",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to UDP port 138 (NetBIOS)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=47",
+      "rec_id": "LW_AWS_NETWORKING_30",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to UDP port 445 (CIFS)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=48",
+      "rec_id": "LW_AWS_NETWORKING_31",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 21 (FTP)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=49",
+      "rec_id": "LW_AWS_NETWORKING_32",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 20 (FTP-Data)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=50",
+      "rec_id": "LW_AWS_NETWORKING_33",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 25 (SMTP)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=51",
+      "rec_id": "LW_AWS_NETWORKING_34",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 53 (DNS)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=52",
+      "rec_id": "LW_AWS_NETWORKING_35",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to UDP port 53 (DNS)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=53",
+      "rec_id": "LW_AWS_NETWORKING_36",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to All Ports",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=54",
+      "rec_id": "LW_AWS_NETWORKING_37",
+      "resource_count": 0,
+      "service": "aws:redshift",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Redshift Cluster should not be Publicly Accessible",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=55",
+      "rec_id": "LW_AWS_NETWORKING_38",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "ELB Security Group should have Outbound Rules attached to it",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=56",
+      "rec_id": "LW_AWS_NETWORKING_39",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "ELB should not use insecure Cipher(s)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=57",
+      "rec_id": "LW_AWS_NETWORKING_40",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "EC2 instance should be deployed in EC2-VPC platform",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=58",
+      "rec_id": "LW_AWS_NETWORKING_41",
+      "resource_count": 0,
+      "service": "aws:cloudfront",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "CloudFront Origin Protocol Policy should use https-only",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=59",
+      "rec_id": "LW_AWS_NETWORKING_42",
+      "resource_count": 0,
+      "service": "aws:cloudfront",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "CloudFront Origin SSL Protocols should not use insecure Cipher(s)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 50,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=60",
+      "rec_id": "LW_AWS_NETWORKING_43",
+      "resource_count": 50,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group should not allow inbound traffic from all to all ICMP",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=61",
+      "rec_id": "LW_AWS_NETWORKING_44",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "ELB should have VPC ingress security group",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=62",
+      "rec_id": "LW_AWS_NETWORKING_45",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Classic LBs should have a valid and secure security group",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 19,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=63",
+      "rec_id": "LW_AWS_NETWORKING_46",
+      "resource_count": 19,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "No Default VPC should be present in an AWS account",
+      "violations": [
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "eu-north-1",
+          "resource": "vpc-19866470"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ap-south-1",
+          "resource": "vpc-b0f523d8"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "eu-west-3",
+          "resource": "vpc-facc0793"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "eu-west-2",
+          "resource": "vpc-8e7726e7"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ap-northeast-3",
+          "resource": "vpc-d3c22eba"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ap-northeast-2",
+          "resource": "vpc-f0a93f98"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ap-northeast-1",
+          "resource": "vpc-dcf097b9"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "sa-east-1",
+          "resource": "vpc-be0b52db"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ca-central-1",
+          "resource": "vpc-a90cbfc0"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ap-southeast-1",
+          "resource": "vpc-07bfdb62"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "ap-southeast-2",
+          "resource": "vpc-6354ca06"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "eu-central-1",
+          "resource": "vpc-da70eab3"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "us-east-2",
+          "resource": "vpc-02e4e042d79ed4b82"
+        },
+        {
+          "reasons": [
+            "NoDefaultVPCShouldBePresentInAnAWSAccount"
+          ],
+          "region": "us-west-1",
+          "resource": "vpc-bc62f3d9"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=64",
+      "rec_id": "LW_AWS_NETWORKING_47",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "EC2 instances should not have a Public IP address attached",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=65",
+      "rec_id": "LW_AWS_NETWORKING_48",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "CouldNotAssess",
+      "suppressions": null,
+      "title": "Attached VPC CIDR block(s) should be in whitelist",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=66",
+      "rec_id": "LW_AWS_NETWORKING_49",
+      "resource_count": 0,
+      "service": "aws:elbv2",
+      "severity": 4,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Load Balancers should have Access Logs enabled",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=67",
+      "rec_id": "LW_AWS_NETWORKING_50",
+      "resource_count": 0,
+      "service": "aws:cloudfront",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "CloudFront View Protocol Policy should use https-only",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=68",
+      "rec_id": "LW_AWS_NETWORKING_51",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "ELBs should have a valid and secure security group",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=88",
+      "rec_id": "LW_AWS_MONGODB_1",
+      "resource_count": 0,
+      "service": "aws:mongo",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 27017 (MongoDB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=89",
+      "rec_id": "LW_AWS_MONGODB_2",
+      "resource_count": 0,
+      "service": "aws:mongo",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to EC2 instance should not allow inbound traffic from all to TCP port 27018 (MongoDB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=90",
+      "rec_id": "LW_AWS_MONGODB_3",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to Elastic Load Balancer instance should not allow inbound traffic from all to TCP port 27017 (MongoDB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=91",
+      "rec_id": "LW_AWS_MONGODB_4",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to Elastic Load Balancer instance should not allow inbound traffic from all to TCP port 27018 (MongoDB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=92",
+      "rec_id": "LW_AWS_MONGODB_5",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to Application Load Balancer instance should not allow inbound traffic from all to TCP port 27017 (MongoDB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "Networking",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=93",
+      "rec_id": "LW_AWS_MONGODB_6",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Security group attached to Application Load Balancer instance should not allow inbound traffic from all to TCP port 27018 (MongoDB)",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=70",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_1",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ec2 instance does not have any tags",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=71",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_2",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure EBS Volumes are Encrypted",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=72",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_3",
+      "resource_count": 0,
+      "service": "aws:ec2",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure No Public EBS Snapshots",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=73",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_4",
+      "resource_count": 0,
+      "service": "aws:rds",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure RDS database is encrypted with customer managed KMS key",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=74",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_5",
+      "resource_count": 0,
+      "service": "aws:redshift",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure Redshift Cluster is encrypted",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=75",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_6",
+      "resource_count": 0,
+      "service": "aws:iam",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure no server certificate has been uploaded before Heartbleed vulnerability",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=76",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_7",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure ELB has latest Secure Cipher policies Configured for Session Encryption",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=77",
+      "rec_id": "LW_AWS_GENERAL_SECURITY_8",
+      "resource_count": 0,
+      "service": "aws:elb",
+      "severity": 1,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Ensure ELB is not affected by POODLE Vulnerability (CVE-2014-3566) ",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=78",
+      "rec_id": "LW_AWS_SERVERLESS_1",
+      "resource_count": 0,
+      "service": "aws:lambda",
+      "severity": 1,
+      "status": "CouldNotAssess",
+      "suppressions": null,
+      "title": "Lambda Function should not have Admin Privileges",
+      "violations": null
+    },
+    {
+      "assessed_resource_count": 4,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=79",
+      "rec_id": "LW_AWS_SERVERLESS_2",
+      "resource_count": 4,
+      "service": "aws:lambda",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Lambda Function should not have Cross Account Access",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 4,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=80",
+      "rec_id": "LW_AWS_SERVERLESS_3",
+      "resource_count": 4,
+      "service": "aws:lambda",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Lambda Function should not have Same IAM Role for more than one lambda function",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 4,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=81",
+      "rec_id": "LW_AWS_SERVERLESS_4",
+      "resource_count": 4,
+      "service": "aws:lambda",
+      "severity": 2,
+      "status": "NonCompliant",
+      "suppressions": [],
+      "title": "Lambda Function should have tracing enabled",
+      "violations": [
+        {
+          "reasons": [
+            "LambdaFunctionWithTracingDisabled"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:lambda:us-east-2:027833388596:function:reporttest"
+        },
+        {
+          "reasons": [
+            "LambdaFunctionWithTracingDisabled"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:lambda:us-east-2:027833388596:function:AWXTest"
+        },
+        {
+          "reasons": [
+            "LambdaFunctionWithTracingDisabled"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:lambda:us-east-2:027833388596:function:dumbflask"
+        },
+        {
+          "reasons": [
+            "LambdaFunctionWithTracingDisabled"
+          ],
+          "region": "us-east-2",
+          "resource": "arn:aws:lambda:us-east-2:027833388596:function:RyansFunction"
+        }
+      ]
+    },
+    {
+      "assessed_resource_count": 4,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=82",
+      "rec_id": "LW_AWS_SERVERLESS_5",
+      "resource_count": 4,
+      "service": "aws:lambda",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Lambda Function should not have VPC access",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW General Security",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=83",
+      "rec_id": "LW_AWS_RDS_1",
+      "resource_count": 0,
+      "service": "aws:rds",
+      "severity": 3,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "RDS should not have a Public Interface",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW Elastic Search",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=84",
+      "rec_id": "LW_AWS_ELASTICSEARCH_1",
+      "resource_count": 0,
+      "service": "aws:es",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Elastic Search Domain should not be exposed",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW Elastic Search",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=85",
+      "rec_id": "LW_AWS_ELASTICSEARCH_2",
+      "resource_count": 0,
+      "service": "aws:es",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Elastic Search Domain should be in a VPC",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW Elastic Search",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=86",
+      "rec_id": "LW_AWS_ELASTICSEARCH_3",
+      "resource_count": 0,
+      "service": "aws:es",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Elastic Search Domain should not have EncryptionAtRest disabled",
+      "violations": []
+    },
+    {
+      "assessed_resource_count": 0,
+      "category": "LW Elastic Search",
+      "info_link": "https://api.lacework.net/ui/documents/Lacework_SecurityAudit_Descriptions.pdf#page=87",
+      "rec_id": "LW_AWS_ELASTICSEARCH_4",
+      "resource_count": 0,
+      "service": "aws:es",
+      "severity": 2,
+      "status": "Compliant",
+      "suppressions": [],
+      "title": "Elastic Search Domain should not have Encryption using AWS Managed Keys",
+      "violations": []
+    }
+  ],
+  "reportTime": "2021-10-23T14:04:20.26Z",
+  "reportTitle": "AWS CIS Benchmark and S3 Report",
+  "reportType": "AWS_CIS_S3",
+  "summary": [
+    {
+      "assessed_resource_count": 1857,
+      "num_compliant": 119,
+      "num_not_compliant": 34,
+      "num_recommendations": 160,
+      "num_severity_1_non_compliance": 9,
+      "num_severity_2_non_compliance": 13,
+      "num_severity_3_non_compliance": 8,
+      "num_severity_4_non_compliance": 3,
+      "num_severity_5_non_compliance": 1,
+      "num_suppressed": 0,
+      "suppressed_resource_count": 0,
+      "violated_resource_count": 259
+    }
+  ]
+}

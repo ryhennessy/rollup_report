@@ -100,7 +100,7 @@ def lambda_handler(event, context):
     lw_session = lw_auth()
     all_reports = get_report(lw_session)
     build_spreadsheet(all_reports)
-    #save_report()
+    save_report()
 
     return {
         'statusCode': 200,

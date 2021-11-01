@@ -29,7 +29,9 @@ def get_report(lw_session):
     for c in aws_cfg.json()['data']:
         reporturl = "%s%s%s%s" % (os.environ.get(
             "LW_BASEURL"), "/api/v1/external/compliance/aws/GetLatestComplianceReport?AWS_ACCOUNT_ID=", c['DATA']['AWS_ACCOUNT_ID'], "&FILE_FORMAT=json")
-    reports.append(lw_session.get(reporturl).json())
+        single_report=lw_session.get(reporturl).json() 
+        if single_report['ok'] != False:
+            reports.append(single_report)
     return reports
 
 
@@ -50,9 +52,9 @@ def build_spreadsheet(all_reports):
 
         ws[reportname] = wb.add_sheet(reportname)
 
-        ws[reportname].col(0).width = 11 * 256
+        ws[reportname].col(0).width = 25 * 256
         ws[reportname].col(1).width = 105 * 256
-        ws[reportname].col(2).width = 13 * 256
+        ws[reportname].col(2).width = 25 * 256
         ws[reportname].col(3).width = 11 * 256
         ws[reportname].col(4).width = 11 * 256
         ws[reportname].col(5).width = 11 * 256
@@ -86,18 +88,19 @@ def build_spreadsheet(all_reports):
                         ws[reportname].write(row, 1, affected['resource'])
                 row += 1
 
-        wb.save("testing.xls")
+        wb.save("/tmp/testing.xls")
 
 
 def save_report():
     s3 = boto3.resource("s3")
-    s3.upload_file('testing.xls', 'lw-hennessy-reports', 'compliance-reports/latest.xls')
+    s3.meta.client.upload_file('/tmp/testing.xls', 'lw-hennessy-reports', 'compliance-reports/latest.xls')
     
 
 def lambda_handler(event, context):
     lw_session = lw_auth()
     all_reports = get_report(lw_session)
     build_spreadsheet(all_reports)
+    save_report()
 
     return {
         'statusCode': 200,

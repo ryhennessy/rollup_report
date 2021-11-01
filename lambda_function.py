@@ -40,10 +40,11 @@ def build_spreadsheet(all_reports):
     wb = xlwt.Workbook()
 
     header = xlwt.easyxf(
-        'font: bold true;'
+        'font: bold true, height 240;'
         'align: horizontal center;'
         'pattern: pattern solid, fore_colour gray25;')
-    boldline = xlwt.easyxf('font: bold true;')
+    boldline = xlwt.easyxf('font: bold true, height 240;')
+    resline = xlwt.easyxf('font: height 200, colour blue_gray;')
 
     for acc in all_reports:
         acc = acc['data'][0]
@@ -52,8 +53,8 @@ def build_spreadsheet(all_reports):
 
         ws[reportname] = wb.add_sheet(reportname)
 
-        ws[reportname].col(0).width = 25 * 256
-        ws[reportname].col(1).width = 105 * 256
+        ws[reportname].col(0).width = 35 * 256
+        ws[reportname].col(1).width = 115 * 256
         ws[reportname].col(2).width = 25 * 256
         ws[reportname].col(3).width = 11 * 256
         ws[reportname].col(4).width = 11 * 256
@@ -72,20 +73,19 @@ def build_spreadsheet(all_reports):
             rec.setdefault('VIOLATIONS', [])
             titlelink = 'HYPERLINK("{}", "{}")'.format(
                 rec['INFO_LINK'], rec['TITLE'].replace('"', ""))
-            ws[reportname].write(row, 0, rec['REC_ID'])
-            ws[reportname].write(row, 1, xlwt.Formula(titlelink))
-            ws[reportname].write(row, 2, rec['STATUS'])
-            ws[reportname].write(row, 3, rec['SEVERITY'])
-            ws[reportname].write(row, 4, len(rec['VIOLATIONS']))
-            ws[reportname].write(row, 5, rec['ASSESSED_RESOURCE_COUNT'])
+            ws[reportname].write(row, 0, rec['REC_ID'], boldline)
+            ws[reportname].write(row, 1, xlwt.Formula(titlelink), boldline)
+            ws[reportname].write(row, 2, rec['STATUS'], boldline)
+            ws[reportname].write(row, 3, rec['SEVERITY'], boldline)
+            ws[reportname].write(row, 4, len(rec['VIOLATIONS']),boldline)
+            ws[reportname].write(row, 5, rec['ASSESSED_RESOURCE_COUNT'], boldline)
             row += 1
             if len(rec['VIOLATIONS']) > 0:
-                ws[reportname].write(row, 1, "Affected Resources", boldline)
                 for affected in rec['VIOLATIONS']:
                     affected.setdefault('resource', '')
                     if affected['resource'] != "":
                         row += 1
-                        ws[reportname].write(row, 1, affected['resource'])
+                        ws[reportname].write(row, 1, affected['resource'], resline)
                 row += 1
 
         wb.save("/tmp/testing.xls")
@@ -100,7 +100,7 @@ def lambda_handler(event, context):
     lw_session = lw_auth()
     all_reports = get_report(lw_session)
     build_spreadsheet(all_reports)
-    save_report()
+    #save_report()
 
     return {
         'statusCode': 200,

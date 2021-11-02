@@ -14,7 +14,7 @@ variable "lacework_keyid" {
 }
 
 variable "lacework_secretkey" {
-  default = "<Insert Secret Key Here>""
+  default = "<Insert Secret Key Here>"
   type = string
   description = "Lacework API Secret Key"
 }

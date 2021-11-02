@@ -9,7 +9,8 @@ def lw_auth():
     keyid = os.environ.get("LW_KEYID")
     secretkey = os.environ.get("LW_SECRETKEY")
     baseurl = "%s%s" % (os.environ.get("LW_BASEURL"), "/api/v2/access/tokens")
-
+    bucketname = os.enviorn.get("LW_BUCKET")
+    
     myheader = {
         'X-LW-UAKS': "{}".format(secretkey), 'Content-Type': 'application/json'}
     mybody = json.dumps({'keyId': "{}".format(keyid), "expiryTime": 3600})
@@ -93,7 +94,7 @@ def build_spreadsheet(all_reports):
 
 def save_report():
     s3 = boto3.resource("s3")
-    s3.meta.client.upload_file('/tmp/testing.xls', 'lw-hennessy-reports', 'compliance-reports/latest.xls')
+    s3.meta.client.upload_file('/tmp/testing.xls', bucketname, 'latest.xls')
     
 
 def lambda_handler(event, context):
@@ -104,7 +105,7 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body': 'allgood'
+        'body': 'completed'
     }
 
 

@@ -3,13 +3,13 @@ import os
 import requests
 import boto3
 import xlwt
+import time
 
 
 def lw_auth():
     keyid = os.environ.get("LW_KEYID")
     secretkey = os.environ.get("LW_SECRETKEY")
     baseurl = "%s%s" % (os.environ.get("LW_BASEURL"), "/api/v2/access/tokens")
-    bucketname = os.enviorn.get("LW_BUCKET")
     
     myheader = {
         'X-LW-UAKS': "{}".format(secretkey), 'Content-Type': 'application/json'}
@@ -89,12 +89,14 @@ def build_spreadsheet(all_reports):
                         ws[reportname].write(row, 1, affected['resource'], resline)
                 row += 1
 
-        wb.save("/tmp/testing.xls")
+        wb.save("/tmp/temp.xls")
 
 
 def save_report():
+    filename = "lacewwork-%s.xls" % (time.strftime("%Y%m%d-%H%M%S"))
+    bucketname = os.environ.get("LW_BUCKET")
     s3 = boto3.resource("s3")
-    s3.meta.client.upload_file('/tmp/testing.xls', bucketname, 'latest.xls')
+    s3.meta.client.upload_file('/tmp/temp.xls', bucketname, filename)
     
 
 def lambda_handler(event, context):

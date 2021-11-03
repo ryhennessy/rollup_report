@@ -2,31 +2,35 @@ provider "aws" {
 }
 
 variable "bucket_name" {
-  default = "lacework-comp-reporting"
   type = string
   description = "The name of the bucket where the reports are stored"
 }
 
 variable "lacework_keyid" {
-  default = "<Insert Key Here>"
   type = string
   description = "Lacework Key ID"
 }
 
 variable "lacework_secretkey" {
-  default = "<Insert Secret Key Here>"
   type = string
   description = "Lacework API Secret Key"
 }
 
 variable "lacework_baseurl" {
-  default = "https://<instancename>.lacework.net"
   type = string
-  description = "Lacework Instance"
+  description = "Lacework Instance URL. example value: https://unquieinstanece.lacework.net"
 }
 
+locals {
+   full_bucket_name = length(var.bucket_name) > 0 ? var.bucket_name : "lacework-reports-${random_id.uniq.hex}"
+}
+
+resource "random_id" "uniq" {
+  byte_length = 6
+} 
+
 resource "aws_s3_bucket" "lacework_reporter_bucket" {
-  bucket = var.bucket_name
+  bucket = local.full_bucket_name
   acl    = "private"
 }
 

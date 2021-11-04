@@ -93,7 +93,7 @@ def build_spreadsheet(all_reports):
 
 
 def save_report():
-    filename = "lacewwork-%s.xls" % (time.strftime("%Y%m%d-%H%M%S"))
+    filename = "lacework-%s.xls" % (time.strftime("%Y%m%d-%H%M%S"))
     bucketname = os.environ.get("LW_BUCKET")
     s3 = boto3.resource("s3")
     s3.meta.client.upload_file('/tmp/temp.xls', bucketname, filename)
